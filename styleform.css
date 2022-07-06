@@ -1,0 +1,142 @@
+/* Font "Rubik" */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* Body */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 0;
+    color: #070707;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper */
+
+.container {
+    max-width: 944px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.containerform {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 30px;
+    border: #828282 3px solid;
+    margin-top: 30px;
+    height: auto;
+    padding: 30px;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid #828282;
+}
+
+a {
+    text-decoration: none;
+    font-style: inherit;
+    color: #828282;
+    margin: 33px 0;
+    font-weight: 700;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Form */
+
+p {
+    margin: 25px 0;
+}
+
+.formform input, .formform textarea {
+    width: 100%;
+}
+
+.formname, .formemail, .formtext {
+    font-family: inherit;
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+    
+}
+
+.p2 {
+    margin-top: 0;
+
+}
+ 
+
+
+button {
+    background-color: #070707;
+    color: #F6F6F6;
+    border-radius: 50px;
+    width: 180px;
+    height: 42px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #F6F6F6;
+    color: #070707;
+    border: #070707 1px solid;
+   
+}
+
+
+.btn {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+.contacts {
+    margin-top: 210px;
+    margin-bottom: 40px;
+}
+
+
+.footicons {
+    max-width: 342px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    margin-top: 45px;
+    margin-bottom: 143px;
+    color: #828282;
+    font-size: 14px;
+}

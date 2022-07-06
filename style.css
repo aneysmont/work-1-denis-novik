@@ -1,0 +1,307 @@
+/* Font "Rubik" */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* Body */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 0;
+    color: #070707;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background */
+
+.back {
+    background-color: #F6F6F6;
+    position: absolute;
+    width: 100%;
+    height: 506px;
+    margin: 0;
+    padding: 0;
+    top: 768px;
+    z-index: -2;
+}
+
+.back2 {
+    background-color: #F6F6F6;
+    position: absolute;
+    width: 100%;
+    height: 2253px;
+    margin: 0;
+    padding: 0;
+    top: 1884px;
+    z-index: -2;
+}
+
+/* Wrapper */
+
+.container {
+    max-width: 944px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid #828282;
+}
+
+a {
+    text-decoration: none;
+    font-style: inherit;
+    color: #828282;
+    margin: 33px 0;
+    font-weight: 700;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Background card */
+
+article {
+    text-align: center;
+}
+
+/* First article "Home" */
+
+h1 {
+    font-size: 47px;
+    margin: 0;
+}
+
+p,
+span {
+    font-weight: 400;
+}
+
+.lang {
+    transform: rotate(-90deg);
+}
+
+.lang2 {
+    color: #828282;
+}
+
+.prof {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px 0;
+}
+
+.myphoto {
+    margin-bottom: 104px;
+}
+
+/* Second article "About" */
+
+
+
+h3 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.about {
+    width: 485px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.aboutmeheading {
+    margin-top: 120px;
+    margin-bottom: 18px;
+}
+
+.aboutme {
+    margin-bottom: 40px;
+}
+
+/* Third article "Skills" */
+
+.skills {
+    margin-top: 198px;
+    margin-bottom: 69px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 83px;
+}
+
+.card {
+    max-width: 166px;
+    height: 206px;
+    margin: 0;
+}
+
+.icon {
+    height: 89px;
+    width: auto;
+}
+
+.carddescription {
+    font-size: 14px;
+    color: #828282;
+    font-weight: 700;
+
+    margin-top: 23px;
+    margin-bottom: 41px;
+}
+
+.carddescription2 {
+    font-size: 14px;
+    color: #828282;
+    font-weight: 700;
+
+    margin-top: 23px;
+    margin-bottom: 56px;
+}
+
+/* Fourth article "Portfolio" */
+
+.portfolio {
+    margin-top: 222px;
+    margin-bottom: 47px;
+}
+
+.description {
+    text-decoration: underline;
+    color: #070707;
+    margin-top: 45px;
+    margin-bottom: 99px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+.contacts {
+    margin-top: 210px;
+}
+
+.foottext {
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+
+button {
+    background-color: #070707;
+    color: #F6F6F6;
+    border-radius: 50px;
+    width: 180px;
+    height: 42px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    border: none;
+    margin-bottom: 85px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F6F6F6;
+    color: #070707;
+    border: #070707 1px solid;
+   
+}
+
+.footicons {
+    max-width: 342px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    margin-top: 45px;
+    margin-bottom: 143px;
+    color: #828282;
+    font-size: 14px;
+}
+
+/* Adaptive */
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .myphoto, .photo {
+        max-width: 750px;
+        text-align: center;
+    }
+
+    .back {
+        top: 700px; 
+    }
+
+    .back2 {
+        top: 1800px;
+        height: 2000px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .myphoto, .photo {
+        max-width: 550px;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .card {
+        margin-top: 30px;
+    }
+
+    .back {
+        top: 650px;
+    }
+
+    .back2 {
+        top: 2400px;
+        height: 1650px;
+    }
+}
